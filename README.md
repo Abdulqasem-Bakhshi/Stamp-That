@@ -111,8 +111,11 @@ cd StampThat
 npm install
 
 cd backend
+
 python -m pip install -r requirements.txt
+
 python -m pip install pyinstaller
+
 python -m PyInstaller --onedir --name StampThatBackend server.py
 
 Copy-Item .\dist\StampThatBackend\StampThatBackend.exe `
