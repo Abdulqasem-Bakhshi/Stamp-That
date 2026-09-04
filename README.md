@@ -24,7 +24,9 @@ The application is built with React and Tauri, while the image-processing engine
 
 ## Screenshots
 
-> Screenshots coming soon.
+
+<img width="1900" height="998" alt="Animation" src="https://github.com/user-attachments/assets/71d33e65-466c-4f25-9294-5ed1e7a5285a" />
+
 
 ## Tech Stack
 
