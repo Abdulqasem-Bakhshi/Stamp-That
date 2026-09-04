@@ -73,3 +73,48 @@ StampThat! keeps the image-processing logic in Python rather than reimplementing
 │                     │
 │    Pillow / resvg   │
 └─────────────────────┘
+```
+
+# For Developers
+
+## Requirements
+
+StampThat is developed and built on Windows.
+
+You need:
+
+- Node.js
+- npm
+- Python 3
+- Rust
+- Tauri v2
+- PyInstaller
+
+Verify the installations:
+
+```powershell
+node --version
+npm --version
+python --version
+rustc --version
+cargo --version
+```
+
+# Complete First-Time Setup
+
+git clone https://github.com/Abdulqasem-Bakhshi/StampThat.git
+cd StampThat
+
+npm install
+
+cd backend
+python -m pip install -r requirements.txt
+python -m pip install pyinstaller
+python -m PyInstaller --onedir --name StampThatBackend server.py
+
+Copy-Item .\dist\StampThatBackend\StampThatBackend.exe `
+..\src-tauri\binaries\StampThatBackend-x86_64-pc-windows-msvc.exe -Force
+
+cd ..
+
+npm run tauri -- dev
