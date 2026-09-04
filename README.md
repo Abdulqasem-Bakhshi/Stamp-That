@@ -103,6 +103,7 @@ cargo --version
 # Complete First-Time Setup
 
 git clone https://github.com/Abdulqasem-Bakhshi/StampThat.git
+
 cd StampThat
 
 npm install
