@@ -1,4 +1,4 @@
-# StampThat
+# StampThat!
 
 StampThat is a desktop application for adding a logo or watermark to images.
 
