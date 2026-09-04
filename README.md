@@ -1,6 +1,6 @@
-# StampThat!
+# StampThat!!
 
-StampThat is a desktop application for adding a logo or watermark to images.
+StampThat!! is a desktop application for adding a logo or watermark to images.
 
 It provides a simple graphical interface for positioning, resizing, centering, and adjusting the opacity of a logo before stamping it onto an image.
 
@@ -51,7 +51,7 @@ The application is built with React and Tauri, while the image-processing engine
 
 ## Architecture
 
-StampThat keeps the image-processing logic in Python rather than reimplementing it in JavaScript.
+StampThat! keeps the image-processing logic in Python rather than reimplementing it in JavaScript.
 
 ```text
 ┌─────────────────────┐
