@@ -1,6 +1,6 @@
-# StampThat!!
+# StampThat!
 
-StampThat!! is a desktop application for adding a logo or watermark to images.
+StampThat! is a desktop application for adding a logo or watermark to images.
 
 It provides a simple graphical interface for positioning, resizing, centering, and adjusting the opacity of a logo before stamping it onto an image.
 
